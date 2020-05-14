@@ -76,6 +76,7 @@
     "@types/node": "^14.0.1",
     "@typescript-eslint/eslint-plugin": "^2.14.0",
     "@typescript-eslint/parser": "^2.14.0",
+    "cross-fetch": "^3.0.4",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-prettier": "^3.1.2",
@@ -86,8 +87,5 @@
     "rimraf": "^3.0.0",
     "ts-jest": "^25.5.1",
     "typescript": "^3.7.4"
-  },
-  "dependencies": {
-    "cross-fetch": "^3.0.4"
   }
 }

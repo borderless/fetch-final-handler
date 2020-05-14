@@ -1,5 +1,3 @@
-import { Request, Response } from "cross-fetch";
-
 export function finalHandler() {
   return async function (req: Request): Promise<Response> {
     const isHead = req.method.toLowerCase() === "head";

@@ -1,4 +1,4 @@
-import { Request } from "cross-fetch";
+import "cross-fetch/polyfill";
 import { finalHandler } from "./index";
 
 describe("fetch final handler", () => {
