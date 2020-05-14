@@ -84,13 +84,10 @@
     "lint-staged": "^10.0.8",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.0",
-    "throwback": "^4.1.0",
-    "ts-expect": "^1.1.0",
     "ts-jest": "^25.5.1",
     "typescript": "^3.7.4"
   },
   "dependencies": {
-    "cross-fetch": "^3.0.4",
-    "path-to-regexp": "^6.1.0"
+    "cross-fetch": "^3.0.4"
   }
 }
