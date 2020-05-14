@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetch final handler should not return a body when using HEAD 1`] = `
+Response {
+  "size": 0,
+  "timeout": 0,
+  Symbol(Body internals): Object {
+    "body": null,
+    "disturbed": false,
+    "error": null,
+  },
+  Symbol(Response internals): Object {
+    "counter": undefined,
+    "headers": Headers {
+      Symbol(map): Object {
+        "Content-Security-Policy": Array [
+          "default-src 'self'",
+        ],
+        "X-Content-Type-Options": Array [
+          "nosniff",
+        ],
+      },
+    },
+    "status": 404,
+    "statusText": "Not Found",
+    "url": undefined,
+  },
+}
+`;
+
+exports[`fetch final handler should return a 404 response 1`] = `
+Response {
+  "size": 0,
+  "timeout": 0,
+  Symbol(Body internals): Object {
+    "body": Object {
+      "data": Array [
+        67,
+        97,
+        110,
+        110,
+        111,
+        116,
+        32,
+        71,
+        69,
+        84,
+        32,
+        47,
+      ],
+      "type": "Buffer",
+    },
+    "disturbed": false,
+    "error": null,
+  },
+  Symbol(Response internals): Object {
+    "counter": undefined,
+    "headers": Headers {
+      Symbol(map): Object {
+        "Content-Security-Policy": Array [
+          "default-src 'self'",
+        ],
+        "Content-Type": Array [
+          "text/plain;charset=UTF-8",
+        ],
+        "X-Content-Type-Options": Array [
+          "nosniff",
+        ],
+      },
+    },
+    "status": 404,
+    "statusText": "Not Found",
+    "url": undefined,
+  },
+}
+`;
